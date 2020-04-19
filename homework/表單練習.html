@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  font-size: 16px;
+  margin: 0px;
+}
+label {
+
+    }
+textarea {
+    
+  width: 70%;
+  height: 100px;
+}
+button {
+    
+  padding: 10px;
+  background-color: rgb(60, 136, 161);
+  border: 1px solid rgb(60, 136, 161);
+}
+input {
+
+  padding: 6px;
+  font-size: 16px;
+}
+
+input, textarea, button {
+
+  border-radius: 5px;
+}
+
+.main {
+    margin: 20px;
+    padding: 10px;
+    background-image: url(https://q-cf.bstatic.com/images/hotel/max1024x768/223/223087771.jpg);
+}
+</style>
+</head>
+<body>
+<div class="main">
+    <form>
+        <fieldset>
+          <legend style="text-align: center;">基本個人資料</legend>
+        <label for="username">帳號(電子郵件):</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">密碼:</label><br>
+        <input type="password" id="pwd" name="pwd"><br/>
+        <label >身分證字號:</label><br>
+        <input type="text" id="idnumber" name="idnumber"><br>
+        <label>血型:</label><br>
+      <select id="cars" name="cars">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="AB">AB</option>
+        <option value="O">O</option>
+      </select><br/>
+      <label >性別:</label><br>
+      <select id="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="others">others</option>
+      </select><br>
+        <label for="birthday">生日:</label><br/>
+        <input type="date" id="birthday" name="birthday">
+        <br/>
+        <label>備註:</label><br/>
+
+      <textarea name="message">
+      
+      </textarea>
+      <p>有任何問題可撥:0912345678，我們將盡快為您服務! </p><br><br>
+      <input type="checkbox" name="subscribe" value="subscribe">
+      <label>確認沒有問題請打勾</label>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+      </head>
+      <body>
+          
+      </body>
+      </html></p>
+      <br/><br/>
+          <button onclick="">送出</button><br/><br/>
+        </fieldset>
+      </form>      
+</div>
+
+</body>
+</html>
