@@ -16,3 +16,4 @@
 #自我介紹
 *[自我介紹原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/personal%20introduce.html)
 *[自我介紹網頁](https://cycyucheng1010.github.io/wp108b/homework/personal%20introduce.html)
+*[java script 10階 質數 99乘法](https://github.com/cycyucheng1010/wp108b/blob/master/homework/javascript%20homework123.js)
