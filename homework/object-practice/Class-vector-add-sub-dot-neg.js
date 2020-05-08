@@ -31,4 +31,4 @@ console.log("\nv1 + v2 = %s",v1.add(v2));//顯示加法結果
 console.log("\nv1 - v2 = %s",v1.sub(v2));//顯示減法結果
 console.log("\nv1 ‧  v2 = %s",v1.dot(v2));//顯示內積結果
 console.log("\nv1' = %s\n",v1.neg());//顯示取負向量結果
-module.exports=Vector;
+module.exports=vector;
