@@ -23,4 +23,11 @@
 
 #javascript
 
-1.*[java script 10階 質數 99乘法](https://github.com/cycyucheng1010/wp108b/blob/master/homework/javascript%20homework123.js)
+1.*[java script 10階 質數 99乘法](https://github.com/cycyucheng1010/wp108b/blob/master/homework/basic-javascript-practice/javascript%20homework123.js)
+
+2.*[陣列函數的練習](https://github.com/cycyucheng1010/wp108b/blob/master/homework/array-practice/%E9%99%A3%E5%88%97%E5%87%BD%E6%95%B8%E7%9A%84%E7%B7%B4%E7%BF%92.js)
+
+3.*[vector-add-sub-dot-neg](https://github.com/cycyucheng1010/wp108b/blob/master/homework/object-practice/Class-vector-add-sub-dot-neg.js)
+
+4.* [json-practice](https://github.com/cycyucheng1010/wp108b/blob/master/homework/object-practice/json-practice.js)
+
