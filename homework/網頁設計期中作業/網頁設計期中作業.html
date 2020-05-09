@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>      <!--HTML -->
+
+<title>Yu-Cheng</title>                                 <!--網頁名稱 -->
+<meta charset="UTF-8">                                  <!--字元編碼方式 -->
+<meta name="description" content="my personal web page"> <!--描述 -->
+  <meta name="keywords" content="yu-cheng">             <!--關鍵字 -->
+  <meta name="author" content="Yu cheng">               <!--作者-->
+<meta name ="viewport" content = "width= device-width ;initial-scale=1" >  <!--隨裝置寬度改變解析度、 -->
+<head>
+
+<style>     /*CSS的部分*/
+body 
+{
+  font-family: "Lato", sans-serif;    /*字體 字形*/
+}
+
+.sidenav 
+{
+  height: 100%; 
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a 
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h1
+     {
+         background-color: black;
+         color: white;
+        text-align:center;
+        font-family: 標楷體;
+     }
+ table,th,td
+ {
+    
+    background-color: lavender;
+    border:1px solid black;
+    color: darkslategray;
+ } 
+ th,td
+ {
+     padding:5px;
+    text-align: center;
+ }   
+ th
+ {
+width: auto;
+background-color: black;
+color: white;
+ }
+ td
+ {
+   width:auto;  
+ }
+</style>
+
+</head>
+
+<body style="background :url(3.jpg)  fixed no-repeat ;background-size: cover;">
+
+<h1 >陳昱誠</h1> <!--網頁標題 -->
+
+<table style="position: absolute;   
+top:20%;
+right:40%;""><!--表格內容、位置 -->
+  <tr>      <!--類別 -->  
+   <th>項目</th>
+   <th>內容</th>   
+  
+  </tr>
+  <tr>      <!--第一列 -->
+  <td>年紀</td>
+  <td>19歲</td>
+  </tr>
+  <tr>      <!--第二列 -->
+  <td>性別</td>
+  <td>男生</td>
+  </tr>
+  <tr>      <!--第三列 -->
+  <td>職業</td>
+  <td>學生</td>    
+  </tr>
+  <tr>       <!--第四列 -->
+  <td>求學<br>過程</td>
+  <td>
+      <ul style="text-align: left ;">
+       <li> 國立金門大學資訊工程學系就讀中</li>  
+       <li>新竹市立香山高中畢業</li>
+       <li>新竹市立光華國中畢業</li>
+       <li>新竹市北門國小畢業</li>   
+  
+  </ul>
+  </td>   
+  </tr>
+  <tr>     <!--第五列 -->
+   <td>興趣</td>
+   <td>
+   <ul style="text-align: left ;">
+   <li>打籃球</li>
+   <li>彈吉他</li>    
+   </ul>    
+   </td>   
+  </tr>
+  <tr>    <!--第六列 -->
+  <td>社群<br>軟體</td>
+  <td><ol style="text-align: left ;">
+   <li>IG:       yucheng1010</li>
+   <li>Facebook:      陳昱誠</li>   
+  </ol></td>    
+  </tr>
+  </table>
+
+
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>        <!--關閉的按鈕 -->
+  <p style="font-size: 20px;color: white;">About Me></p>
+  <a href="https://cycyucheng1010.github.io/wp108b/homework/personal%20introduce.html">personal introduce</a>   <!--跳轉個人介紹 -->
+  <a href="#">my photos</a>     <!--跳轉我的照片 -->  
+  <p style="font-size: 20px;color: white;">Connect Me></p>
+  <a href="https://cycyucheng1010.github.io/wp108b/homework/%E8%A1%A8%E5%96%AE%E7%B7%B4%E7%BF%92.html">Connet ME</a>  <!--跳轉表單 -->
+  <p style="font-size: 20px;color: white;">social platform></p>
+  <a href="https://www.instagram.com/yucheng1010/?hl=zh-tw">Instagram</a>  <!--跳轉我的IG -->
+  <a href="https://github.com/cycyucheng1010">Github</a>                   <!--跳轉我的github-->
+  <a href="https://www.facebook.com/yucheng1010/">Facebook</a>             <!--跳轉我的FB -->
+  <p style="font-size: 20px;color: white;">Others></p>
+  <p style="font-size: 14px;color: white;">Phone number:0976382114</p>     <!--連絡電話 -->
+  <p style="font-size: 14px;color: white;">Email address:<br>rick20001010@gmail.com</p>  <!--電子郵件 -->
+  
+</div>
+
+<div id="datetime" style="position: absolute;top:80%;
+right:40%">
+  <script>
+      setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+  </script>
+</div>
+
+
+
+
+
+<span style="font-size:30px;cursor:pointer;color: white;position: absolute;top: 3%;left5%;" onclick="openNav()">&#9776;menu</span> <!--側欄 鼠標、字體大小 -->
+
+<script>
+function openNav() {                                            //開啟的函式
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {                                           //  關閉的函式
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function showtime()
+{
+
+}
+</script>
+   
+</body>
+</html> 
