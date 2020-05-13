@@ -8,14 +8,91 @@
   <meta name="author" content="Yu cheng">               <!--作者-->
 <meta name ="viewport" content = "width= device-width ;initial-scale=1" >  <!--隨裝置寬度改變解析度、 -->
 <head>
+<style>
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 
 
 
 </head>
+
 <<body style="background :url(3.jpg)  fixed no-repeat ;background-size: cover;">
 
-  <h1 style="color: white;text-align: center;">My growth history</h1>
+
+  <div class="navbar">
+    <a href="https://cycyucheng1010.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD.html">Home</a>
+    <a href="https://cycyucheng1010.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD/%E5%80%8B%E4%BA%BA%E4%BB%8B%E7%B4%B9.html">Personal introduce</a>
+    <div class="dropdown">
+      <button class="dropbtn">Social Platform 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://www.instagram.com/yucheng1010/?hl=zh-tw">IG</a>
+        <a href="https://github.com/cycyucheng1010">github</a>
+        <a href="https://www.facebook.com/yucheng1010/">Facebook</a>
+      </div>
+    </div> 
+  </div>
+
 
 <div style="width:100px;position: absolute;top: 18%;right:80%">
   <img style="width:300%" src="p1.jpg">
@@ -42,9 +119,8 @@
 <div style="width:250px;position: absolute;top: 52.5%;right:7.5%">
   <img style="width: 100%" src="p6.jpg">
   <p style="color: white ;position: absolute;top: 52.5%;right:110%">大一的我</p>
-</div>
 
-  <button style="position: absolute;top:90%;right:90%" onclick="history.back()">回上一頁</button>
+
   </body>
 
 
