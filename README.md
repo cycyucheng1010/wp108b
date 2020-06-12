@@ -35,7 +35,8 @@
 
 6.網頁設計期末作業
 *[網頁設計期末作業原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E6%9C%AB%E4%BD%9C%E6%A5%AD/chatroom.html)
-*[網頁設計期末報告作業網址]
+
+*[網頁設計期末報告作業網頁]
 (https://cycyucheng1010.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E6%9C%AB%E4%BD%9C%E6%A5%AD/chatroom.html)
 
 #javascript
