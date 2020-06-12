@@ -83,8 +83,14 @@ function alerting()
 {
     const personElement = document.getElementById("input_nickname");
     const person = personElement.value;
-    alert("嗨!"+ person);
-    window.location.href="https://cycyucheng1010.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E6%9C%AB%E4%BD%9C%E6%A5%AD/chatroom.html";
+    //alert("嗨!"+ person);
+    var x = confirm('你確定嗎？');
+
+if (x) {
+    window.location.replace("HTTP://www.google.com");
+} else {
+    history.go(0)
+}
 }
 </Script>
 
