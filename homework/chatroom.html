@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>chatroom</title>
+ <meta charset="UTF-8">
+ <meta name ="viewport" content = "width= device-width ;initial-scale=1" >  <!--隨裝置寬度改變解析度、 -->
+ <head>
+<style>
+h1
+{
+text-align: center;
+}
+.chatspace
+{
+    width:600px;
+            height:500px;
+            border:1px solid #666;
+            margin:50px auto 0;
+            background:#f9f9f9
+}
+.chatmessage
+{
+height:400px;
+border:1px solid; 
+color:blank;
+}
+nicknameandexit
+{
+font-size: medium;    
+}
+</style>
+<body>
+  
+        <h1>誠's聊天室 </h1> 
+        <div class="chatspace">
+        <div id="showbody" class ="chatmessage">
+        <ul id="contents">
+        </div>    
+        <p>message</p> 
+        <input id="message" type="text" style="height: 40px;width:525px"/>  
+        <button onclick="send()">傳送</button> 
+        </div>   
+        
+        <script>
+                let message = []
+                
+                
+
+                //傳送訊息
+                function send()
+                {
+                 var sendmessage = document.getElementById('message').value
+                 message.push({sendmessage :sendmessage})       
+                }
+
+
+
+        </script>
+</body>
+</head>
+</html>
