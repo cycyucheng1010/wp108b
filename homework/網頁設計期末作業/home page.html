@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>誠's chatroom</title>
+<meta charset="UTF-8">                                  <!--字元編碼方式 -->
+<meta name ="viewport" content = "width= device-width ;initial-scale=1" >  <!--隨裝置寬度改變解析度、 -->
+<head>
+<style>
+.login
+{
+width: 500px;
+height: 300px;
+border:1px ; 
+margin: 200px auto;
+background-image:url(1.jpg) ;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+p
+{
+text-align: center;
+font-family: fantasy;
+font-size: 45px;
+
+}
+#nickname
+{
+    font-size: 22.5px;
+    font-family: fantasy;
+    position: absolute;
+    right: 47.5%;
+    background-color: aliceblue;
+}
+#content
+{
+background-image:url(1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+#input_nickname
+{
+    position: absolute;
+    right: 45%;
+}
+#yes
+{
+    position: absolute;
+    right: 47.5%;
+}
+h1                                          
+     {
+         background-color: black;
+         color: white;
+        text-align:center;
+        font-family: fantasy
+     }
+
+
+</style>
+<body id="content">
+    <h1>welcome to my chatroom</h1>
+
+    <div class="login">
+<p>Login</p>
+<br>
+<br>
+<br>
+<form name="form" id="form" >
+<label  id="nickname">nickname:</label>
+<br><br><br>
+<input type="text" name="nickname" id="input_nickname">
+<br><br><br><br><br>
+<button id="yes" onclick="alerting()">確定</button>
+</div>
+</body>
+
+<script>
+function alerting()
+
+{
+    const personElement = document.getElementById("input_nickname");
+    const person = personElement.value;
+    alert("嗨!"+ person);
+    window.location.href="https://cycyucheng1010.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E6%9C%AB%E4%BD%9C%E6%A5%AD/chatroom.html";
+}
+</Script>
+
+</head>
+
+
+</html>
