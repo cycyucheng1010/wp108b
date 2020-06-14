@@ -30,10 +30,10 @@ font-size: medium;
 </style>
 <body>
   
-        <h1>誠's聊天室 </h1> 
+        <h1>Chat Room </h1> 
         <div class="chatspace">
         <div id="showbody" class ="chatmessage">
-        <ul id="contents">
+        
         </div>    
         <p>message</p> 
         <input id="message" type="text" style="height: 40px;width:525px"/>  
@@ -41,18 +41,21 @@ font-size: medium;
         </div>   
         
         <script>
-                let message = []
                 
+                let database = []
                 
 
                 //傳送訊息
                 function send()
                 {
+                
                  var sendmessage = document.getElementById('message').value
-                 message.push({sendmessage :sendmessage})       
+                 database.push(sendmessage)   
+                 showbody.innerHTML="me: "+ database +
+                 //database.pop();
+                 
                 }
-
-
+                
 
         </script>
 </body>
