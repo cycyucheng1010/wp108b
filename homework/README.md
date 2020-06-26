@@ -8,17 +8,19 @@
 
 1.[W3school](https://www.w3schools.com/)
 
-  *學習與練習HTML與CSS的地方，就像一本線上的課本。
+  * 學習與練習HTML與CSS的地方，就像一本線上的課本。
 
 2.[陳鍾誠的課程社團](https://www.facebook.com/groups/ccccourse)
 
-  *本學騎遠距教學之課程社團，筆者認為這種教學方式很好，若有聽不清楚的地方，可以回放多聽幾遍。
+  * 本學騎遠距教學之課程社團，筆者認為這種教學方式很好，若有聽不清楚的地方，可以回放多聽幾遍。
 
 3.[鍾誠老師的github](https://github.com/ccccourse)
-  *上面有著鍾誠的上課的code，可以clone下來進行學習。
+
+  * 上面有著鍾誠的上課的code，可以clone下來進行學習。
 
 4.[鍾誠老師的個人網站](https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0)
-  *上面有著鍾誠老師對於JS的教學書，若JS有不懂的地方，來這裡就對了！
+
+  * 上面有著鍾誠老師對於JS的教學書，若JS有不懂的地方，來這裡就對了！
 
 ## 學習筆記
 
