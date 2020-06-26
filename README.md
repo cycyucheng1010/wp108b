@@ -14,12 +14,12 @@
 #HTML練習
 
 1.表單練習
-*[表單練習原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/%E8%A1%A8%E5%96%AE%E7%B7%B4%E7%BF%92.html)
-*[表單練習網頁](https://cycyucheng1010.github.io/wp108b/homework/%E8%A1%A8%E5%96%AE%E7%B7%B4%E7%BF%92.html)
+* [表單練習原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/%E8%A1%A8%E5%96%AE%E7%B7%B4%E7%BF%92.html)
+* [表單練習網頁](https://cycyucheng1010.github.io/wp108b/homework/%E8%A1%A8%E5%96%AE%E7%B7%B4%E7%BF%92.html)
 
 2.自我介紹表格
-*[自我介紹原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/personal%20introduce.html)
-*[自我介紹網頁](https://cycyucheng1010.github.io/wp108b/homework/personal%20introduce.html)
+* [自我介紹原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/personal%20introduce.html)
+* [自我介紹網頁](https://cycyucheng1010.github.io/wp108b/homework/personal%20introduce.html)
 
 3.自我介紹文字
 * [自我介紹原始碼](https://github.com/cycyucheng1010/wp108b/blob/master/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD/%E5%80%8B%E4%BA%BA%E4%BB%8B%E7%B4%B9.html)
