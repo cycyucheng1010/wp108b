@@ -62,7 +62,7 @@
 
 3. [vector-add-sub-dot-neg](https://github.com/cycyucheng1010/wp108b/blob/master/homework/object-practice/Class-vector-add-sub-dot-neg.js)
 
-4 [json-practice](https://github.com/cycyucheng1010/wp108b/blob/master/homework/object-practice/json-practice.js)
+4. [json-practice](https://github.com/cycyucheng1010/wp108b/blob/master/homework/object-practice/json-practice.js)
 
 
 
