@@ -23,8 +23,8 @@
   * 備註 : 上面有著鍾誠老師對於JS的教學書，若JS有不懂的地方，來這裡就對了！
 
 ## 學習筆記
-[學習筆記](https://github.com/cycyucheng1010/wp108b/blob/master/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98.pdf)
-  * 備註 : 本人針對本學期學到的部分進行了一個間單的說明
+  [學習筆記](https://github.com/cycyucheng1010/wp108b/blob/master/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98.pdf)
+  * 備註 : 本人針對本學期學到的部分進行了一個間單的說明，為一PDF檔。
 
 ## 作業與練習
 
