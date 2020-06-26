@@ -8,7 +8,7 @@
 
 1.[W3school](https://www.w3schools.com/)
 
-  * 備註 : 學習與練習HTML與CSS的地方，就像一本線上的課本。
+  * 備註 : 學習與練習HTML與CSS的地方，就像一間線上的圖書館，當有問題時就可以上去尋求解決之道。
 
 2.[陳鍾誠的課程社團](https://www.facebook.com/groups/ccccourse)
 
