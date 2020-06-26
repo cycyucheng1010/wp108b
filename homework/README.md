@@ -16,7 +16,7 @@
 
 3.[鍾誠老師的github](https://github.com/ccccourse)
 
-  * 備註 : 上面有著鍾誠的上課的code，可以clone下來進行學習。
+  * 備註 : 上面有著鍾誠老師上課的code，可以clone下來進行學習。
 
 4.[鍾誠老師的個人網站](https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0)
 
